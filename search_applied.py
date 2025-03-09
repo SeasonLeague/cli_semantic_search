@@ -100,21 +100,6 @@ class StreamingKnowledgeBase:
 if __name__ == "__main__":
     knowledge_data = [
         {
-            "title": "Python Basics",
-            "category": "Programming",
-            "content": "Python is a high-level, interpreted programming language known for its readability and simplicity. It supports multiple paradigms including procedural, object-oriented, and functional programming. Python features a dynamic type system and automatic memory management, making it beginner-friendly while still powerful for advanced applications."
-        },
-        {
-            "title": "Machine Learning Introduction",
-            "category": "Data Science",
-            "content": "Machine learning is a subfield of artificial intelligence that focuses on developing systems that can learn from and make predictions based on data. The primary aim is to enable computers to learn automatically without human intervention. Major approaches include supervised learning, unsupervised learning, and reinforcement learning."
-        },
-        {
-            "title": "Web Development Fundamentals",
-            "category": "Programming",
-            "content": "Web development involves creating websites and web applications. Frontend development focuses on what users see and interact with, using technologies like HTML, CSS, and JavaScript. Backend development handles server-side logic and database interactions using languages like Python, Ruby, or Node.js. Full-stack developers work on both frontend and backend components."
-        },
-        {
             "title": "Database Management Systems",
             "category": "Computing",
             "content": "Database management systems (DBMS) are software applications that interact with users, other applications, and the database itself to capture and analyze data. A DBMS allows for data definition, creation, querying, update, and administration. Common types include relational databases (SQL) and non-relational databases (NoSQL)."
@@ -123,8 +108,194 @@ if __name__ == "__main__":
             "title": "Natural Language Processing",
             "category": "Data Science",
             "content": "Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of human language. Applications include chatbots, translation services, sentiment analysis, and information extraction."
+        },
+        {
+            "title": "Intro to JavaScript",
+            "category": "Programming",
+            "content": "JavaScript is a dynamic, high-level programming language primarily used for web development. It enables interactive web pages and is supported by all modern web browsers. With JavaScript, developers can manipulate HTML and CSS to create responsive, dynamic websites."
+        },
+        {
+            "title": "The Theory of Relativity",
+            "category": "Physics",
+            "content": "Albert Einstein's theory of relativity revolutionized the way we understand space, time, and gravity. It includes both the Special and General Theory of Relativity, explaining how objects move through space and how massive objects warp the fabric of spacetime."
+        },
+        {
+            "title": "Deep Learning Basics",
+            "category": "AI & Machine Learning",
+            "content": "Deep learning is a subset of machine learning that uses neural networks with many layers (hence 'deep') to model complex patterns in large amounts of data. Deep learning has powered advancements in image recognition, natural language processing, and more."
+        },
+        {
+            "title": "The History of the Internet",
+            "category": "Technology",
+            "content": "The Internet has its roots in the 1960s with the development of ARPANET, a U.S. government project aimed at creating a communication system resistant to nuclear attack. By the 1990s, the World Wide Web emerged, transforming the internet into a global network for communication, commerce, and information."
+        },
+        {
+            "title": "Basic Concepts in Cryptography",
+            "category": "Security",
+            "content": "Cryptography is the practice of securing communication and data from third-party access. Key concepts include encryption, decryption, hashing, and digital signatures, which protect data confidentiality, integrity, and authenticity."
+        },
+        {
+            "title": "Basic HTML Structure",
+            "category": "Web Development",
+            "content": "HTML (HyperText Markup Language) is the standard markup language for creating web pages. HTML documents consist of elements such as headings, paragraphs, links, and images. The basic structure includes the 'html', 'head', and 'body' tags, with the 'head' section containing metadata, and the 'body' section containing the content."
+        },
+        {
+            "title": "Newton's Laws of Motion",
+            "category": "Physics",
+            "content": "Sir Isaac Newton's Three Laws of Motion describe the relationship between a body and the forces acting upon it. They form the foundation of classical mechanics: 1) An object in motion stays in motion unless acted upon by an external force. 2) Force equals mass times acceleration. 3) Every action has an equal and opposite reaction."
+        },
+        {
+            "title": "HTML5 & CSS3 Features",
+            "category": "Web Development",
+            "content": "HTML5 introduced semantic elements, improved audio/video capabilities, and APIs for offline web apps. CSS3 brought in new features like transitions, animations, and flexbox for responsive design, making it easier to create dynamic, interactive websites."
+        },
+        {
+            "title": "Overview of the Solar System",
+            "category": "Astronomy",
+            "content": "The Solar System consists of the Sun and the objects that are gravitationally bound to it, including eight planets, their moons, asteroids, comets, and the Kuiper Belt. Earth is the third planet from the Sun and supports life, a rarity in the known universe."
+        },
+        {
+            "title": "Introduction to Cybersecurity",
+            "category": "Security",
+            "content": "Cybersecurity involves protecting computer systems and networks from cyberattacks, unauthorized access, and data breaches. This includes both hardware and software protections and covers practices like encryption, firewalls, and antivirus programs."
+        },
+        {
+            "title": "Principles of Quantum Mechanics",
+            "category": "Physics",
+            "content": "Quantum mechanics describes the behavior of matter and energy at atomic and subatomic scales. Unlike classical physics, quantum mechanics introduces concepts like wave-particle duality, uncertainty principle, and superposition, which challenge our everyday understanding of the world."
+        },
+        {
+            "title": "What is Blockchain?",
+            "category": "Technology",
+            "content": "Blockchain is a decentralized, distributed ledger technology that securely records transactions across multiple computers. It is most known for its use in cryptocurrencies like Bitcoin, but its applications also extend to fields such as supply chain management, voting systems, and more."
+        },
+        {
+            "title": "The Human Genome Project",
+            "category": "Biology",
+            "content": "The Human Genome Project was an international research initiative aimed at mapping all the genes in the human genome. Completed in 2003, it provided a complete sequence of human DNA, advancing our understanding of genetics and leading to breakthroughs in medicine and disease prevention."
+        },
+        {
+            "title": "Understanding Artificial Intelligence",
+            "category": "AI & Machine Learning",
+            "content": "Artificial Intelligence (AI) involves creating machines that can perform tasks that would normally require human intelligence, such as visual perception, decision-making, and language translation. Key subfields include machine learning, robotics, and natural language processing."
+        },
+        {
+            "title": "Basic Concepts in Data Science",
+            "category": "Data Science",
+            "content": "Data science involves extracting knowledge and insights from large datasets using various techniques including statistics, machine learning, and data visualization. It helps organizations make informed decisions based on data-driven analysis."
+        },
+        {
+            "title": "Introduction to the Theory of Evolution",
+            "category": "Biology",
+            "content": "The theory of evolution, proposed by Charles Darwin, suggests that species evolve over time through natural selection. Organisms with traits that improve their chances of survival are more likely to reproduce, passing on these advantageous traits to future generations."
+        },
+        {
+            "title": "The Big Bang Theory",
+            "category": "Cosmology",
+            "content": "The Big Bang Theory is the leading explanation for the origin of the universe, proposing that the universe began as a singularity around 13.8 billion years ago and has been expanding ever since. Evidence includes cosmic background radiation and the observed redshift of distant galaxies."
+        },
+        {
+            "title": "Principles of Data Visualization",
+            "category": "Data Science",
+            "content": "Data visualization is the graphical representation of data and information. Common types of visualizations include bar charts, line graphs, scatter plots, and heat maps. Effective visualizations help people understand patterns, trends, and outliers in complex data."
+        },
+        {
+            "title": "The Role of Nanotechnology in Medicine",
+            "category": "Technology",
+            "content": "Nanotechnology involves manipulating matter on an atomic or molecular scale. In medicine, it is used for targeted drug delivery, medical imaging, and the development of new materials for implants and prosthetics."
+        },
+        {
+            "title": "Introduction to Web APIs",
+            "category": "Web Development",
+            "content": "Web APIs (Application Programming Interfaces) allow different software systems to communicate with each other over the web. They enable developers to access the functionality of external services, like social media platforms or payment systems, and integrate them into applications."
+        },
+        {
+            "title": "Artificial Intelligence in Healthcare",
+            "category": "AI & Healthcare",
+            "content": "AI is transforming healthcare by providing tools for disease diagnosis, personalized treatment plans, drug discovery, and more. Machine learning models can analyze medical images, predict patient outcomes, and assist healthcare professionals in making data-driven decisions."
+        },
+        {
+            "title": "The Impact of Social Media on Society",
+            "category": "Sociology",
+            "content": "Social media platforms have significantly changed how people communicate, interact, and perceive the world. While they offer opportunities for connection, they also raise concerns about privacy, misinformation, and the mental health impact of constant connectivity."
+        },
+        {
+            "title": "Introduction to Theoretical Physics",
+            "category": "Physics",
+            "content": "Theoretical physics involves the use of mathematical models and abstractions to explain and predict natural phenomena. It includes fields such as quantum mechanics, relativity, and string theory, and often bridges the gap between experimental physics and pure mathematics."
+        },
+        {
+            "title": "What is Machine Learning?",
+            "category": "Data Science",
+            "content": "Machine learning is a type of artificial intelligence that enables systems to learn from data and improve performance over time without being explicitly programmed. It is used in various applications, such as recommendation systems, speech recognition, and image classification."
+        },
+        {
+            "title": "The Internet of Things (IoT) in Smart Cities",
+            "category": "Technology",
+            "content": "The Internet of Things (IoT) is the backbone of smart cities, where connected devices, such as sensors and smart meters, are used to collect data that can improve urban living. IoT technologies help in traffic management, energy efficiency, and waste management."
+        },
+        {
+            "title": "The Role of Artificial Intelligence in Education",
+            "category": "AI & Education",
+            "content": "Artificial intelligence in education is reshaping traditional learning by offering personalized learning experiences, intelligent tutoring systems, and automation of administrative tasks. AI tools can adapt to individual students' needs, making education more accessible and efficient."
+        },
+        {
+            "title": "The Impact of Climate Change on Agriculture",
+            "category": "Environment",
+            "content": "Climate change has serious implications for global agriculture, including changes in precipitation patterns, increased frequency of extreme weather events, and shifting growing seasons. These disruptions affect crop yields and food security, requiring new approaches to farming and resource management."
+        },
+        {
+            "title": "What is Genetic Engineering?",
+            "category": "Biology",
+            "content": "Genetic engineering involves the modification of an organism's DNA to achieve desired traits. It is used in agriculture to create crops resistant to pests and diseases, in medicine to produce insulin and vaccines, and in research to study genes and disease mechanisms."
+        },
+        {
+            "title": "The Evolution of the Smartphone",
+            "category": "Technology",
+            "content": "The smartphone has evolved from a basic mobile phone to a powerful computing device. With advancements in mobile processors, cameras, and operating systems, smartphones now offer functionalities such as social media, GPS navigation, and mobile gaming."
+        },
+        {
+            "title": "Renewable Energy Sources",
+            "category": "Energy",
+            "content": "Renewable energy sources, such as solar, wind, and hydropower, provide an alternative to fossil fuels. They are crucial in addressing climate change and ensuring sustainable energy for the future. Technological advancements are making renewable energy more efficient and accessible."
+        },
+        {
+            "title": "The Process of Photosynthesis",
+            "category": "Biology",
+            "content": "Photosynthesis is the process by which green plants and some other organisms convert light energy, usually from the sun, into chemical energy stored in glucose. It is vital for life on Earth, as it provides oxygen and food for nearly all living organisms."
+        },
+        {
+            "title": "The Role of Artificial Intelligence in Autonomous Vehicles",
+            "category": "AI & Technology",
+            "content": "Artificial intelligence plays a key role in the development of autonomous vehicles. By using sensors, cameras, and machine learning algorithms, self-driving cars can navigate roads, recognize obstacles, and make decisions in real time without human intervention."
+        },
+        {
+            "title": "The Industrial Revolution",
+            "category": "History",
+            "content": "The Industrial Revolution was a period of significant technological and socioeconomic change that began in the late 18th century. It marked the transition from agrarian economies to industrialized ones, leading to innovations in manufacturing, transportation, and communication."
+        },
+        {
+            "title": "The Role of Microorganisms in the Ecosystem",
+            "category": "Biology",
+            "content": "Microorganisms, including bacteria, fungi, and viruses, play a crucial role in the Earth's ecosystems. They are involved in processes such as decomposition, nutrient cycling, and symbiosis, and many are essential for the health of plants, animals, and humans."
+        },
+        {
+            "title": "Electricity and Magnetism",
+            "category": "Physics",
+            "content": "Electricity and magnetism are fundamental forces of nature. Electric charges produce electric fields, and moving electric charges create magnetic fields. These forces are interconnected in electromagnetism, which is the basis for technologies like motors, generators, and electromagnets."
+        },
+        {
+            "title": "The Solar Energy Industry",
+            "category": "Energy",
+            "content": "Solar energy is harnessed through photovoltaic cells that convert sunlight into electricity. The solar energy industry has grown rapidly in recent years, driven by advancements in solar panel technology, falling costs, and increased demand for renewable energy solutions."
+        },
+        {
+            "title": "The Role of Genetics in Disease",
+            "category": "Biology",
+            "content": "Genetics plays a major role in many diseases, with some being inherited through family lines. Understanding genetic disorders and their causes can lead to better treatment options, gene therapies, and even preventive measures."
         }
     ]
+
     
     print("Streaming Knowledge Base Assistant")
     print("--------------------------------")
